@@ -1,2 +1,0 @@
-# natthawat-junthawe
-NJ
