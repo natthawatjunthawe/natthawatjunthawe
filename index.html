@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NJ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Prompt:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor"></div>
+
+    <nav>
+        <div class="logo">NJ</div>
+        <ul class="nav-links">
+            <li><a href="#story">STORY</a></li>
+            <li><a href="#gallery">GALLEEY</a></li>
+            <li><a href="#video">VIDEO</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="NATTHAWÁT">NATTHAWÁT</h1>
+            <h1 class="outline-text">JUNTHAWÉ</h1>
+            <p class="hero-sub">THE GOAT END</p>
+        </div>
+        <div class="scroll-down">SCROLL <span>&darr;</span></div>
+    </header>
+
+    <section id="story" class="magazine-section">
+        <h2 class="sec-title">THE <span>JOURNEY</span></h2>
+        <div class="story-wrapper" id="story-container">
+            </div>
+    </section>
+
+    <section id="gallery" class="dark-section">
+        <h2 class="sec-title text-center">EXHIBITION</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper" id="gallery-container">
+                </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section id="video" class="magazine-section">
+        <h2 class="sec-title">MOTION <span>PICTURES</span></h2>
+        <div class="video-grid" id="video-container">
+            </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h2>NATTHAWÁT</h2>
+            <div class="social-links" id="social-container">
+                </div>
+            <p>&copy; 2026 NATTHAWÁT JUNTHAWÉ.</p>
+        </div>
+<div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img id="lightbox-img" src="" alt="Popup Image">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

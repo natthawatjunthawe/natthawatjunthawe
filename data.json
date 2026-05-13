@@ -1,0 +1,51 @@
+{
+  "stories": [
+    {
+      "title": "BORN TO DOMINATE",
+      "content": "ทุกความสำเร็จเริ่มต้นจากการตัดสินใจที่จะไม่ยอมแพ้ ท่ามกลางหยาดเหงื่อและชั่วโมงแห่งการฝึกฝนที่ไม่มีใครเห็น นี่คือรากฐานของตำนานที่กำลังจะถูกจารึก",
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "title": "THE SPOTLIGHT",
+      "content": "เมื่อแสงไฟสาดส่องลงมา ตัวจริงเท่านั้นที่จะยืนหยัดอยู่ได้ มันไม่ใช่แค่เรื่องของทักษะ แต่มันคือรัศมีและความมุ่งมั่นที่สะกดทุกสายตาให้หยุดนิ่ง",
+      "image": "https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1583454110551-21f2fa2ec617?q=80&w=800&auto=format&fit=crop",
+      "caption": "FOCUS"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1548690312-e3b507d8c110?q=80&w=800&auto=format&fit=crop",
+      "caption": "STRIVE"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1495555687398-3f50d6e79e1e?q=80&w=800&auto=format&fit=crop",
+      "caption": "GLORY"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop",
+      "caption": "THE AURA"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1550345332-09e3ac987658?q=80&w=800&auto=format&fit=crop",
+      "caption": "CONQUER"
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "title": "THE BEGINNING"
+    },
+    {
+      "url": "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "title": "UNSTOPPABLE"
+    }
+  ],
+  "socials": [
+    {"icon": "fab fa-instagram", "link": "https://instagram.com"},
+    {"icon": "fab fa-x-twitter", "link": "https://twitter.com"},
+    {"icon": "fab fa-youtube", "link": "https://youtube.com"}
+  ]
+}
