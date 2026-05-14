@@ -28,7 +28,7 @@ h1, h2, .logo, .hero-sub {
 .sec-title {
     font-size: 4rem;
     margin-bottom: 50px;
-    color: #333; /* สีเทาเข้ม */
+    color: #333;
     -webkit-text-stroke: 1px #fff;
 }
 .sec-title span {
