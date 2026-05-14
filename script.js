@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeBtn = document.querySelector('.close-btn');
 
     function openLightbox(imgUrl) {
-        lightbox.style.display = "flex"; // ใช้ flex ให้รูปอยู่ตรงกลาง
+        lightbox.style.display = "flex";
         lightboxImg.src = imgUrl;
     }
 
