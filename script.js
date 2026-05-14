@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
             renderVideos(data.videos);
             renderSocials(data.socials);
 
-            // เมื่อเรนเดอร์รูปภาพเสร็จแล้ว ให้เรียกใช้งาน Swiper Slider
             new Swiper(".mySwiper", {
                 effect: "coverflow",
                 grabCursor: true,
@@ -31,7 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error loading data:', error));
 
-    // แก้ไข: สร้างโครงสร้าง HTML ให้ตรงกับที่คุณเขียนไว้ใน style.css
     function renderStories(stories) {
         const container = document.getElementById('story-container');
         stories.forEach(story => {
@@ -50,7 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // แก้ไข: เปลี่ยน class ให้เป็น swiper-slide เพื่อให้ Swiper ทำงานได้
     function renderGallery(gallery) {
         const container = document.getElementById('gallery-container');
         gallery.forEach(item => {
