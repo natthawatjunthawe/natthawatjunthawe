@@ -57,7 +57,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="${item.url}" alt="${item.caption}">
                 <div class="slide-caption">${item.caption}</div>
             `;
-            // ผูก Event ให้กดแล้วเปิด Lightbox รูปใหญ่
             galleryItem.addEventListener('click', () => openLightbox(item.url));
             container.appendChild(galleryItem);
         });
@@ -86,7 +85,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // ระบบ Lightbox (อัลบั้มรูป)
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = document.getElementById('lightbox-img');
     const closeBtn = document.querySelector('.close-btn');
@@ -101,7 +99,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     lightbox.addEventListener('click', (e) => {
-        // ปิดเมื่อคลิกพื้นที่รอบนอกรูปภาพ
         if (e.target === lightbox) {
             lightbox.style.display = "none";
         }
